@@ -2,16 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AppConfig</key>
+	<dict>
+		<key>DomainPassword</key>
+		<string></string>
+		<key>DomainUserName</key>
+		<string></string>
+		<key>RequestTimeOut</key>
+		<integer>30</integer>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>QR Kit</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
-	<array/>
+	<array>
+		<string>Icon.png</string>
+		<string>Icon@2x.png</string>
+		<string>Icon-72.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.cargosmart.qrkit.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.cargosmart.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -26,6 +39,50 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>TabBarConfig</key>
+	<dict>
+		<key>HistoryItem</key>
+		<dict>
+			<key>BarTitle</key>
+			<string>History</string>
+			<key>DefaultViewController</key>
+			<string>HistoryView</string>
+			<key>ImageName</key>
+			<string>UITabBarSystemItemHistory</string>
+			<key>Order</key>
+			<string>0</string>
+			<key>ViewTitle</key>
+			<string>History</string>
+		</dict>
+		<key>ScanItem</key>
+		<dict>
+			<key>BarTitle</key>
+			<string>Scan</string>
+			<key>DefaultViewController</key>
+			<string>ScanView</string>
+			<key>ImageName</key>
+			<string>camera.png</string>
+			<key>Order</key>
+			<string>1</string>
+			<key>ViewTitle</key>
+			<string>Scan</string>
+		</dict>
+		<key>SettingItem</key>
+		<dict>
+			<key>BarTitle</key>
+			<string>Settings</string>
+			<key>DefaultViewController</key>
+			<string>SettingView</string>
+			<key>ImageName</key>
+			<string>preferences.png</string>
+			<key>Order</key>
+			<string>2</string>
+			<key>ViewTitle</key>
+			<string>Settings</string>
+		</dict>
+	</dict>
+	<key>UILaunchImageFile</key>
+	<string>OOCLDefault.png</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

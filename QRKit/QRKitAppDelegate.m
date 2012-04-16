@@ -7,16 +7,18 @@
 //
 
 #import "QRKitAppDelegate.h"
-
 #import "QRKitViewController.h"
+#import "OOCLTabBarController.h"
 
 @implementation QRKitAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize tabBarController = _tabBarController;
 
 - (void)dealloc
 {
+    [_tabBarController release];
     [_window release];
     [_viewController release];
     [super dealloc];
@@ -24,6 +26,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [application setStatusBarHidden:NO];
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
@@ -31,7 +34,15 @@
     } else {
         self.viewController = [[[QRKitViewController alloc] initWithNibName:@"QRKitViewController_iPad" bundle:nil] autorelease];
     }
-    self.window.rootViewController = self.viewController;
+    
+    _tabBarController = [[OOCLTabBarController alloc] initWithConfig:@"TabBarConfig"];
+    _tabBarController.delegate = self;
+    _tabBarController.selectedIndex = 1;
+    _tabBarController.canRotation = NO;
+    [_tabBarController buildUITabBarController];
+    
+    self.window.rootViewController = _tabBarController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

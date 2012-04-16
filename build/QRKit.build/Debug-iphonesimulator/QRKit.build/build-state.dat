@@ -1,0 +1,619 @@
+TQRKit
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Info.plist QRKit/QRKit-Info.plist
+cProcessPCH++ /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-dovrptmmdgdlyxbujqcejnkcafzt/QRKit-Prefix.pch.pth QRKit/QRKit-Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch.pth QRKit/QRKit-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitAppDelegate.o /Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitViewController.o /Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/HistoryView.o /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/ScanView.o /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/SettingView.o /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o /Users/zhangde/Documents/QRKit/QRKit/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit normal i386
+cGenerateDSYMFile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app.dSYM /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit
+cCopyStringsFile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj/InfoPlist.strings QRKit/en.lproj/InfoPlist.strings
+cCompileXIB /Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPhone.xib
+cCompileXIB /Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPad.xib
+cCopyStringsFile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Localizable.strings QRKit/Localizable.strings
+cCompileXIB /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.xib
+cCompileXIB /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.xib
+cCompileXIB /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.xib
+cCpResource QRKit/Resources/Sounds/beep-beep.aiff build/Debug-iphonesimulator/QRKit.app/beep-beep.aiff
+cCpResource QRKit/Resources/Images/settings.png build/Debug-iphonesimulator/QRKit.app/settings.png
+cTouch /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004EA4BE410000000000000110
+t1319419457
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004E7806CF000000000018D430
+t1316488911
+s1627184
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004E78054400000000000954B0
+t1316488516
+s611504
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004E7807950000000000169840
+t1316489109
+s1480768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004E72F1F200000000002F4210
+t1316155890
+s3097104
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004E72F23F00000000002050D0
+t1316155967
+s2117840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004E72F1BC00000000000B3E00
+t1316155836
+s736768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004E78059F00000000000859A0
+t1316488607
+s547232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004E780641000000000006B1C0
+t1316488769
+s438720
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+c000000004E780612000000000014A5E0
+t1316488722
+s1353184
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/EventKitUI.framework/EventKitUI
+c000000004E7808A8000000000016CF00
+t1316489384
+s1494784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004E7807EF00000000000D89E0
+t1316489199
+s887264
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004E78081300000000000CA7C0
+t1316489235
+s829376
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004E72F3C800000000000998C0
+t1316156360
+s628928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F69C00000000001A9D20
+t1316157084
+s1744160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004E72F185000000000007F9C0
+t1316155781
+s522688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004E72F177000000000006C8A0
+t1316155767
+s444576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/lib/libiconv.dylib
+c000000004E72EDC700000000000FCF50
+t1316154823
+s1036112
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/lib/libsqlite3.dylib
+c000000004E72EDD300000000000C09E0
+t1316154835
+s788960
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/lib/libz.1.2.5.dylib
+c000000004E72EDC60000000000013460
+t1316154822
+s78944
+
+N/Users/zhangde/Documents/FringeKit/build/Debug-iphonesimulator/libiOSFramework.a
+c000000004F7918870000000000F130B0
+t1333336199
+s15806640
+
+N/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents/OOCLTabBarController.h
+c000000004F2F98B300000000000003A8
+t1328519347
+s936
+
+N/Users/zhangde/Documents/QRKit/QRKit/Localizable.strings
+c000000004F8B89E2000000000000007D
+t1334544866
+s125
+
+N/Users/zhangde/Documents/QRKit/QRKit/QRKit-Prefix.pch
+c000000004F8BAA3B00000000000001BA
+t1334553147
+s442
+
+N/Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.h
+c000000004F8B8FE10000000000000216
+t1334546401
+s534
+
+N/Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.m
+c000000004F8B94B00000000000000D29
+t1334547632
+s3369
+
+N/Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.h
+c000000004F8B888500000000000000DA
+t1334544517
+s218
+
+N/Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.m
+c000000004F8B88850000000000000527
+t1334544517
+s1319
+
+N/Users/zhangde/Documents/QRKit/QRKit/Resources/Images/settings.png
+c000000004F5D74BF000000000000037B
+t1331524799
+s891
+
+N/Users/zhangde/Documents/QRKit/QRKit/Resources/Sounds/beep-beep.aiff
+c000000004F556ED400000000000101FE
+t1330998996
+s66046
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.h
+c000000004F8B8BD900000000000000CA
+t1334545369
+s202
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.m
+c000000004F8B8BD9000000000000045F
+t1334545369
+s1119
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.xib
+c000000004F8B8BD90000000000001425
+t1334545369
+s5157
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.h
+c000000004F8B8BED00000000000000C4
+t1334545389
+s196
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.m
+c000000004F8B8BED0000000000000456
+t1334545389
+s1110
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.xib
+c000000004F8B8BED000000000000141C
+t1334545389
+s5148
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.h
+c000000004F8B8BFB00000000000000CA
+t1334545403
+s202
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.m
+c000000004F8B8BFB000000000000045F
+t1334545403
+s1119
+
+N/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.xib
+c000000004F8B8BFB0000000000001425
+t1334545403
+s5157
+
+N/Users/zhangde/Documents/QRKit/QRKit/en.lproj/InfoPlist.strings
+c000000004F8B8885000000000000002D
+t1334544517
+s45
+
+N/Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPad.xib
+c000000004F8B88850000000000001463
+t1334544517
+s5219
+
+N/Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPhone.xib
+c000000004F8B8885000000000000147A
+t1334544517
+s5242
+
+N/Users/zhangde/Documents/QRKit/QRKit/main.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/QRKit/main.mm
+c000000004F8BAC010000000000000153
+t1334553601
+s339
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app
+t1334553550
+s136
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app.dSYM
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/HistoryView.nib
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Info.plist
+t1334553550
+s1379
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Localizable.strings
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/PkgInfo
+t1334553550
+s8
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/ScanView.nib
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/SettingView.nib
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/beep-beep.aiff
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj/QRKitViewController_iPad.nib
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj/QRKitViewController_iPhone.nib
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/settings.png
+t2
+s0
+
+N/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/HistoryView.o
+t1334553553
+s38852
+
+N/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKit.LinkFileList
+c000000004F8BABCD00000000000002C1
+t1334553549
+s705
+
+N/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitAppDelegate.o
+t1334553553
+s60528
+
+N/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitViewController.o
+t1334553553
+s40968
+
+N/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/ScanView.o
+t1334553553
+s38764
+
+N/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/SettingView.o
+t1334553553
+s38852
+
+N/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o
+t1334553553
+s2700
+
+N/var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-dovrptmmdgdlyxbujqcejnkcafzt/QRKit-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch.pth
+t1334553552
+s3925764
+
+NQRKit/QRKit-Info.plist
+c000000004F8B94F70000000000000AFF
+t1334547703
+s2815
+
+CBuild AST from /Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.m
+r0
+
+CBuild AST from /Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.m
+r0
+
+CBuild AST from /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.m
+r0
+
+CBuild AST from /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.m
+r0
+
+CBuild AST from /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.m
+r0
+
+CBuild AST from /Users/zhangde/Documents/QRKit/QRKit/main.m
+r0
+
+CBuild AST from /Users/zhangde/Documents/QRKit/QRKit/main.mm
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7bbefa87e33bb541^a054fb87e33bb541^---0#1#0#--18"Check dependencies36"4C7A0801-2EEE-4BA9-927B-1B960BE11EBB-
+
+CCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/HistoryView.o /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356246352.851253
+e356246353.118284
+r1
+xCompileC
+xbuild/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/HistoryView.o
+x/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.m3012da50e33bb541^4c551e51e33bb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.m0000000000000000^8652"CompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/HistoryView.o QRKit/ViewControllers/HistoryView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -include /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch -MMD -MT dependencies -MF /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/HistoryView.d -c /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.m -o /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/HistoryView.o36"5AB9756B-B230-4080-A481-D8E671E1C656-
+
+CCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitAppDelegate.o /Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356246352.850452
+e356246353.120803
+r1
+xCompileC
+xbuild/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitAppDelegate.o
+x/Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.mace2d950e33bb541^f5f71e51e33bb541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.m0000000000000000^8645"CompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitAppDelegate.o QRKit/QRKitAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -include /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch -MMD -MT dependencies -MF /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitAppDelegate.d -c /Users/zhangde/Documents/QRKit/QRKit/QRKitAppDelegate.m -o /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitAppDelegate.o36"95B77AA4-9CF8-4DC9-BE75-339261444D97-
+
+CCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitViewController.o /Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356246352.850500
+e356246353.120790
+r1
+xCompileC
+xbuild/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitViewController.o
+x/Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.mb403da50e33bb541^39ec1e51e33bb541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.m0000000000000000^8660"CompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitViewController.o QRKit/QRKitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -include /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch -MMD -MT dependencies -MF /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitViewController.d -c /Users/zhangde/Documents/QRKit/QRKit/QRKitViewController.m -o /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKitViewController.o36"DCB6F7D0-39BA-4A13-8C3D-FAF159FEE68E-
+
+CCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/ScanView.o /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356246353.119479
+e356246353.163070
+r1
+xCompileC
+xbuild/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/ScanView.o
+x/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.m7fc11e51e33bb541^48bf2951e33bb541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.m0000000000000000^8637"CompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/ScanView.o QRKit/ViewControllers/ScanView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -include /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch -MMD -MT dependencies -MF /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/ScanView.d -c /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.m -o /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/ScanView.o36"18F31429-11F6-4B28-A364-9CE6BC362B75-
+
+CCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/SettingView.o /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356246353.119665
+e356246353.158277
+r1
+xCompileC
+xbuild/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/SettingView.o
+x/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.me6cc1e51e33bb541^2b852851e33bb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.m0000000000000000^8652"CompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/SettingView.o QRKit/ViewControllers/SettingView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -include /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch -MMD -MT dependencies -MF /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/SettingView.d -c /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.m -o /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/SettingView.o36"AF420369-8574-4DDB-89FC-2C763D77310D-
+
+CCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o /Users/zhangde/Documents/QRKit/QRKit/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356246352.850448
+e356246353.118179
+r1
+xCompileC
+xbuild/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o
+x/Users/zhangde/Documents/QRKit/QRKit/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Users/zhangde/Documents/QRKit/QRKit/main.m60e4d950e33bb541^fb401e51e33bb541^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/zhangde/Documents/QRKit/QRKit/main.m0000000000000000^8585"CompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o QRKit/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -include /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch -MMD -MT dependencies -MF /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.d -c /Users/zhangde/Documents/QRKit/QRKit/main.m -o /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o36"10E76502-956D-49E2-A0FA-5C9D839AF1E9-
+
+CCompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o /Users/zhangde/Documents/QRKit/QRKit/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s356246408.438240
+e356246408.461201
+r1
+xCompileC
+xbuild/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o
+x/Users/zhangde/Documents/QRKit/QRKit/main.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compile /Users/zhangde/Documents/QRKit/QRKit/main.mm21597088e33bb541^45117688e33bb541^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Users/zhangde/Documents/QRKit/QRKit/main.mm0000000000000000^8640"CompileC build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o QRKit/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -include /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-dovrptmmdgdlyxbujqcejnkcafzt/QRKit-Prefix.pch -MMD -MT dependencies -MF /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.d -c /Users/zhangde/Documents/QRKit/QRKit/main.mm -o /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/main.o36"DE06561B-6791-4651-96E7-301CD35DF2A0-
+
+CCompileXIB /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.xib
+s356246409.728007
+e356246411.436475
+r1
+xCompileXIB
+x/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.xiba46fba89e33bb541^6abd6f8be33bb541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.xib0000000000000000^675"CompileXIB QRKit/ViewControllers/HistoryView.xib    cd /Users/zhangde/Documents/QRKit    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/HistoryView.nib /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/HistoryView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"97F23D88-EE6F-4D6F-8CC8-F8A94666ABAF-
+
+CCompileXIB /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.xib
+s356246409.728012
+e356246411.266978
+r1
+xCompileXIB
+x/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compiling /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.xibd66fba89e33bb541^6459448be33bb541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.xib0000000000000000^666"CompileXIB QRKit/ViewControllers/ScanView.xib    cd /Users/zhangde/Documents/QRKit    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/ScanView.nib /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/ScanView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"D65D9D63-6CA5-4947-B029-98742DB1CF1F-
+
+CCompileXIB /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.xib
+s356246411.265742
+e356246411.339752
+r1
+xCompileXIB
+x/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.xib691a448be33bb541^a4fa568be33bb541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.xib0000000000000000^675"CompileXIB QRKit/ViewControllers/SettingView.xib    cd /Users/zhangde/Documents/QRKit    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/SettingView.nib /Users/zhangde/Documents/QRKit/QRKit/ViewControllers/SettingView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"9A566020-BCD5-4E59-9847-4C7462447FA1-
+
+CCompileXIB /Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPad.xib
+s356246409.697881
+e356246411.263786
+r1
+xCompileXIB
+x/Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPad.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPad.xib8db6b289e33bb541^c591438be33bb541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPad.xib0000000000000000^709"CompileXIB QRKit/en.lproj/QRKitViewController_iPad.xib    cd /Users/zhangde/Documents/QRKit    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj/QRKitViewController_iPad.nib /Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"65DDC240-DF12-49AE-814D-460BC4639435-
+
+CCompileXIB /Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPhone.xib
+s356246409.697503
+e356246411.263773
+r1
+xCompileXIB
+x/Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPhone.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPhone.xiba9a0b289e33bb541^488b438be33bb541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPhone.xib0000000000000000^715"CompileXIB QRKit/en.lproj/QRKitViewController_iPhone.xib    cd /Users/zhangde/Documents/QRKit    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj/QRKitViewController_iPhone.nib /Users/zhangde/Documents/QRKit/QRKit/en.lproj/QRKitViewController_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"A796E8D0-F44C-495A-BBB0-CE19F4265706-
+
+CCopyStringsFile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Localizable.strings QRKit/Localizable.strings
+s356246409.697898
+e356246409.726789
+r1
+xCopyStringsFile
+x/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Localizable.strings
+xQRKit/Localizable.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy QRKit/Localizable.stringsa2b5b289e33bb541^f50fba89e33bb541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/zhangde/Documents/QRKit/QRKit/Localizable.strings0000000000000000^457"CopyStringsFile build/Debug-iphonesimulator/QRKit.app/Localizable.strings QRKit/Localizable.strings    cd /Users/zhangde/Documents/QRKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app -- QRKit/Localizable.strings36"22D28079-26A9-44C3-AAF5-9995715F9030-
+
+CCopyStringsFile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj/InfoPlist.strings QRKit/en.lproj/InfoPlist.strings
+s356246409.697497
+e356246409.726953
+r1
+xCopyStringsFile
+x/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj/InfoPlist.strings
+xQRKit/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy QRKit/en.lproj/InfoPlist.strings6f9eb289e33bb541^611aba89e33bb541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/zhangde/Documents/QRKit/QRKit/en.lproj/InfoPlist.strings0000000000000000^487"CopyStringsFile build/Debug-iphonesimulator/QRKit.app/en.lproj/InfoPlist.strings QRKit/en.lproj/InfoPlist.strings    cd /Users/zhangde/Documents/QRKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/en.lproj -- QRKit/en.lproj/InfoPlist.strings36"B3BC47AE-632F-44B2-9E58-3561569AC462-
+
+CCpResource QRKit/Resources/Images/settings.png build/Debug-iphonesimulator/QRKit.app/settings.png
+s356246411.290232
+e356246411.315178
+r1
+xCpResource
+xQRKit/Resources/Images/settings.png
+xbuild/Debug-iphonesimulator/QRKit.app/settings.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/QRKit.app/settings.png7d5d4a8be33bb541^a3af508be33bb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/settings.png00f45ce5dcffdf42^515"CpResource QRKit/Resources/Images/settings.png build/Debug-iphonesimulator/QRKit.app/settings.png    cd /Users/zhangde/Documents/QRKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhangde/Documents/QRKit/QRKit/Resources/Images/settings.png /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app36"815B2800-AB37-419C-B361-9EB598CB3307-
+
+CCpResource QRKit/Resources/Sounds/beep-beep.aiff build/Debug-iphonesimulator/QRKit.app/beep-beep.aiff
+s356246411.266197
+e356246411.309608
+r1
+xCpResource
+xQRKit/Resources/Sounds/beep-beep.aiff
+xbuild/Debug-iphonesimulator/QRKit.app/beep-beep.aiff
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/QRKit.app/beep-beep.aiff8c31448be33bb541^2c444f8be33bb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/beep-beep.aiff00f45ce5dcffdf42^521"CpResource QRKit/Resources/Sounds/beep-beep.aiff build/Debug-iphonesimulator/QRKit.app/beep-beep.aiff    cd /Users/zhangde/Documents/QRKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhangde/Documents/QRKit/QRKit/Resources/Sounds/beep-beep.aiff /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app36"B9248044-0849-4036-B665-7D214F2DF2CB-
+
+CGenerateDSYMFile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app.dSYM /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit
+s356246409.040089
+e356246409.689552
+r1
+xGenerateDSYMFile
+x/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app.dSYM
+x/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generating /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app.dSYM93540a89e33bb541^be86b089e33bb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app.dSYM00f45ce5dcffdf42^457"GenerateDSYMFile build/Debug-iphonesimulator/QRKit.app.dSYM build/Debug-iphonesimulator/QRKit.app/QRKit    cd /Users/zhangde/Documents/QRKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit -o /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app.dSYM36"74C83D8C-4E36-4241-9645-B6857D499C1A-
+
+CLd /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit normal i386
+s356246408.467941
+e356246409.033341
+r1
+xLd
+x/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Link /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit97e17788e33bb541^a0890889e33bb541^---0#0#0#--1461"Ld build/Debug-iphonesimulator/QRKit.app/QRKit normal i386    cd /Users/zhangde/Documents/QRKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -filelist /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/Objects-normal/i386/QRKit.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -ObjC -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -framework EventKit -framework EventKitUI -framework CoreMedia -framework MessageUI -framework MobileCoreServices -liconv -lsqlite3 -framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -lz.1.2.5 -framework Security -framework SystemConfiguration /Users/zhangde/Documents/FringeKit/build/Debug-iphonesimulator/libiOSFramework.a -framework CoreAudio -framework MapKit -framework QuartzCore -framework AudioToolbox -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/QRKit36"4D70F9A9-A0CD-4D4D-B178-647B500196E2-
+
+CProcessInfoPlistFile /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Info.plist QRKit/QRKit-Info.plist
+s356246350.119972
+e356246350.128147
+r1
+xProcessInfoPlistFile
+x/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Info.plist
+xQRKit/QRKit-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process QRKit/QRKit-Info.plist0cc81e4ee33bb541^d9cd204ee33bb541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/zhangde/Documents/QRKit/QRKit/QRKit-Info.plist0000000000000000^548"ProcessInfoPlistFile build/Debug-iphonesimulator/QRKit.app/Info.plist QRKit/QRKit-Info.plist    cd /Users/zhangde/Documents/QRKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility QRKit/QRKit-Info.plist -genpkginfo /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app/Info.plist36"40445A3A-69DB-43C7-BF6B-3597840C1C26-
+
+CProcessPCH /Users/zhangde/Library/Developer/Xcode/DerivedData/QRKit-ciodbazpkhmjozeumaxguobpnfez/Index/PrecompiledHeaders/QRKit-Prefix-fyddgbsbsgehidfhoxoqqclnszzn_ast/QRKit-Prefix.pch.pth QRKit/QRKit-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch.pth QRKit/QRKit-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356246350.136094
+e356246352.842960
+r1
+xProcessPCH
+x/var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch.pth
+xQRKit/QRKit-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile QRKit/QRKit-Prefix.pchd103234ee33bb541^7dccd750e33bb541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/zhangde/Documents/QRKit/QRKit/QRKit-Prefix.pch0000000000000000^8634"ProcessPCH /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch.pth QRKit/QRKit-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -c /Users/zhangde/Documents/QRKit/QRKit/QRKit-Prefix.pch -o /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-eethmnpzilvlkwbgfnllmfevdafw/QRKit-Prefix.pch.d36"7A09C7FF-62F7-4262-959C-A1E8BF763DC2-
+
+CProcessPCH++ /Users/zhangde/Library/Developer/Xcode/DerivedData/QRKit-ciodbazpkhmjozeumaxguobpnfez/Index/PrecompiledHeaders/QRKit-Prefix-gggelghusvusfxcuowpnvgirxcrt_ast/QRKit-Prefix.pch.pth QRKit/QRKit-Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-dovrptmmdgdlyxbujqcejnkcafzt/QRKit-Prefix.pch.pth QRKit/QRKit-Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s356246408.013921
+e356246408.431484
+r1
+xProcessPCH++
+x/var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-dovrptmmdgdlyxbujqcejnkcafzt/QRKit-Prefix.pch.pth
+xQRKit/QRKit-Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile QRKit/QRKit-Prefix.pch41b70388e33bb541^bc756e88e33bb541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/zhangde/Documents/QRKit/QRKit/QRKit-Prefix.pch0000000000000000^8689"ProcessPCH++ /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-dovrptmmdgdlyxbujqcejnkcafzt/QRKit-Prefix.pch.pth QRKit/QRKit-Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhangde/Documents/QRKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-generated-files.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-own-target-headers.hmap -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-all-target-headers.hmap -iquote /Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/QRKit-project-headers.hmap -I/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/include -I/Users/zhangde/Documents/FringeKIt/ZXingCoreSrc -I/Users/zhangde/Documents/FringeKit/iOSFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries -I/Users/zhangde/Documents/FringeKit/iOSFramework/OtherResource -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/GoogleMapAPI -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/HttpFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/JsonKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/MBProgressHUD -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/SqliteFramework -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/AOP -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/Debug -I/Users/zhangde/Documents/FringeKit/iOSFramework/ServiceFramework/FKPropertyConverter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/Cache -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/iCloud -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/MapKitHelper -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/StoreKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/BaseComponents -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/Foundation -I/Users/zhangde/Documents/FringeKit/iOSFramework/CommonFunctions/Categories/UIKit -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/CorePlot/iPhoneOnly -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/Categories -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/RssFramework/MWFeedParser -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTArrayFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTHoursOfOperation -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTLocationFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTOrdinalNumberFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTTimeIntervalFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/FormatterKit/TTTURLRequestFormatter -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageButton -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageLoader -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ImageLoading/EGOImageView -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/QRCoder/QREncoder -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Resources -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKBlockActionSheetView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKMapRouteLayerView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPopupView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKPunchScrollView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKWebViewController -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/actions -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/parsedResults -I/Users/zhangde/Documents/FringeKit/iOSFramework/Libraries/ZXing/Widget/resultParsers -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/FKCalEntity -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKCalendarView/Kal.bundle -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKRefreshTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableView/FKShadowTableView -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKAutoHeightImageCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/ViewControllerFramework/FKViewControls/FKTableViewCell/FKMultiColumnCell -I/Users/zhangde/Documents/FringeKit/iOSFramework/UtilityFramework/ZBarSDK/Headers/ZBarSDK/zbar -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources/i386 -I/Users/zhangde/Documents/QRKit/build/QRKit.build/Debug-iphonesimulator/QRKit.build/DerivedSources -F/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator -c /Users/zhangde/Documents/QRKit/QRKit/QRKit-Prefix.pch -o /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-dovrptmmdgdlyxbujqcejnkcafzt/QRKit-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/kz/vk61q1k15m37z_ywfp3f198rbzf8r6/C/com.apple.Xcode.402072326/SharedPrecompiledHeaders/QRKit-Prefix-dovrptmmdgdlyxbujqcejnkcafzt/QRKit-Prefix.pch.d36"F3AA1818-34FF-45D2-B2D8-2AB23578F5EE-
+
+CTouch /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app
+s356246411.444791
+e356246411.480274
+r1
+xTouch
+x/Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Touch /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app70ec718be33bb541^c3f37a8be33bb541^---0#0#0#--304"Touch build/Debug-iphonesimulator/QRKit.app    cd /Users/zhangde/Documents/QRKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zhangde/Documents/QRKit/build/Debug-iphonesimulator/QRKit.app36"82A9F937-A4BE-46B0-84EA-816892A4D06D-
+

@@ -11,28 +11,114 @@
 		185330A2153BC005008FC663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185330A1153BC005008FC663 /* Foundation.framework */; };
 		185330A4153BC005008FC663 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185330A3153BC005008FC663 /* CoreGraphics.framework */; };
 		185330AA153BC005008FC663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185330A8153BC005008FC663 /* InfoPlist.strings */; };
-		185330AC153BC005008FC663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185330AB153BC005008FC663 /* main.m */; };
+		185330AC153BC005008FC663 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 185330AB153BC005008FC663 /* main.mm */; };
 		185330B0153BC005008FC663 /* QRKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185330AF153BC005008FC663 /* QRKitAppDelegate.m */; };
 		185330B3153BC005008FC663 /* QRKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185330B2153BC005008FC663 /* QRKitViewController.m */; };
 		185330B6153BC005008FC663 /* QRKitViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185330B4153BC005008FC663 /* QRKitViewController_iPhone.xib */; };
 		185330B9153BC005008FC663 /* QRKitViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185330B7153BC005008FC663 /* QRKitViewController_iPad.xib */; };
+		185330C9153BC163008FC663 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185330C8153BC163008FC663 /* Localizable.strings */; };
+		185330DF153BC35A008FC663 /* HistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185330DD153BC35A008FC663 /* HistoryView.m */; };
+		185330E0153BC35A008FC663 /* HistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185330DE153BC35A008FC663 /* HistoryView.xib */; };
+		185330E4153BC36D008FC663 /* ScanView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 185330E2153BC36D008FC663 /* ScanView.mm */; };
+		185330E5153BC36D008FC663 /* ScanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185330E3153BC36D008FC663 /* ScanView.xib */; };
+		185330E9153BC37B008FC663 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185330E7153BC37B008FC663 /* SettingView.m */; };
+		185330EA153BC37B008FC663 /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185330E8153BC37B008FC663 /* SettingView.xib */; };
+		185330EF153BC59D008FC663 /* beep-beep.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 185330EE153BC59D008FC663 /* beep-beep.aiff */; };
+		185330F8153BCC9B008FC663 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185330F6153BCC9B008FC663 /* AudioToolbox.framework */; };
+		185330F9153BCC9B008FC663 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185330F7153BCC9B008FC663 /* AVFoundation.framework */; };
+		185330FD153BCCCF008FC663 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185330FA153BCCCF008FC663 /* MapKit.framework */; };
+		185330FE153BCCCF008FC663 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185330FB153BCCCF008FC663 /* QuartzCore.framework */; };
+		185330FF153BCCCF008FC663 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185330FC153BCCCF008FC663 /* SystemConfiguration.framework */; };
+		18533101153BCCF5008FC663 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533100153BCCF5008FC663 /* CoreAudio.framework */; };
+		18533102153BCE43008FC663 /* libiOSFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 185330D2153BC1E9008FC663 /* libiOSFramework.a */; };
+		1853310A153BCE87008FC663 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533103153BCE87008FC663 /* AddressBook.framework */; };
+		1853310B153BCE87008FC663 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533104153BCE87008FC663 /* AddressBookUI.framework */; };
+		1853310C153BCE87008FC663 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533105153BCE87008FC663 /* CFNetwork.framework */; };
+		1853310D153BCE87008FC663 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533106153BCE87008FC663 /* CoreLocation.framework */; };
+		1853310E153BCE87008FC663 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533107153BCE87008FC663 /* libz.1.2.5.dylib */; };
+		1853310F153BCE87008FC663 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533108153BCE87008FC663 /* MessageUI.framework */; };
+		18533110153BCE87008FC663 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533109153BCE87008FC663 /* Security.framework */; };
+		18533112153BCEA3008FC663 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533111153BCEA3008FC663 /* libsqlite3.dylib */; };
+		18533114153BCEF2008FC663 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533113153BCEF2008FC663 /* libiconv.dylib */; };
+		18533116153BCF0F008FC663 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533115153BCF0F008FC663 /* MobileCoreServices.framework */; };
+		18533118153BCFBE008FC663 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533117153BCFBE008FC663 /* CoreMedia.framework */; };
+		1853311B153BCFDA008FC663 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18533119153BCFDA008FC663 /* EventKit.framework */; };
+		1853311C153BCFDA008FC663 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1853311A153BCFDA008FC663 /* EventKitUI.framework */; };
+		189C6D82153BE71300B35F71 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189C6D81153BE71300B35F71 /* CoreVideo.framework */; };
+		189C6D91153BECD600B35F71 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 189C6D8D153BECD600B35F71 /* camera.png */; };
+		189C6D92153BECD600B35F71 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189C6D8E153BECD600B35F71 /* camera@2x.png */; };
+		189C6D93153BECD600B35F71 /* preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 189C6D8F153BECD600B35F71 /* preferences.png */; };
+		189C6D94153BECD600B35F71 /* preferences@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189C6D90153BECD600B35F71 /* preferences@2x.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185330D1153BC1E9008FC663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185330CA153BC1E8008FC663 /* iOSFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46E2E6D1144920A900EC0AC0;
+			remoteInfo = iOSFramework;
+		};
+		185330D3153BC1F9008FC663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185330CA153BC1E8008FC663 /* iOSFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E2E6D0144920A900EC0AC0;
+			remoteInfo = iOSFramework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1853309B153BC004008FC663 /* QRKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1853309F153BC005008FC663 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		185330A1153BC005008FC663 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		185330A3153BC005008FC663 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		185330A7153BC005008FC663 /* QRKit-Info.plist */ = {isa = PBXFileReference; path = "QRKit-Info.plist"; sourceTree = "<group>"; };
+		185330A7153BC005008FC663 /* QRKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QRKit-Info.plist"; sourceTree = "<group>"; };
 		185330A9153BC005008FC663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		185330AB153BC005008FC663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		185330AD153BC005008FC663 /* QRKit-Prefix.pch */ = {isa = PBXFileReference; path = "QRKit-Prefix.pch"; sourceTree = "<group>"; };
-		185330AE153BC005008FC663 /* QRKitAppDelegate.h */ = {isa = PBXFileReference; path = QRKitAppDelegate.h; sourceTree = "<group>"; };
+		185330AB153BC005008FC663 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		185330AD153BC005008FC663 /* QRKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QRKit-Prefix.pch"; sourceTree = "<group>"; };
+		185330AE153BC005008FC663 /* QRKitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRKitAppDelegate.h; sourceTree = "<group>"; };
 		185330AF153BC005008FC663 /* QRKitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRKitAppDelegate.m; sourceTree = "<group>"; };
-		185330B1153BC005008FC663 /* QRKitViewController.h */ = {isa = PBXFileReference; path = QRKitViewController.h; sourceTree = "<group>"; };
+		185330B1153BC005008FC663 /* QRKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRKitViewController.h; sourceTree = "<group>"; };
 		185330B2153BC005008FC663 /* QRKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRKitViewController.m; sourceTree = "<group>"; };
 		185330B5153BC005008FC663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QRKitViewController_iPhone.xib; sourceTree = "<group>"; };
 		185330B8153BC005008FC663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QRKitViewController_iPad.xib; sourceTree = "<group>"; };
+		185330C8153BC163008FC663 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		185330CA153BC1E8008FC663 /* iOSFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOSFramework.xcodeproj; path = ../FringeKit/iOSFramework.xcodeproj; sourceTree = "<group>"; };
+		185330DC153BC35A008FC663 /* HistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryView.h; sourceTree = "<group>"; };
+		185330DD153BC35A008FC663 /* HistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryView.m; sourceTree = "<group>"; };
+		185330DE153BC35A008FC663 /* HistoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryView.xib; sourceTree = "<group>"; };
+		185330E1153BC36D008FC663 /* ScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanView.h; sourceTree = "<group>"; };
+		185330E2153BC36D008FC663 /* ScanView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScanView.mm; sourceTree = "<group>"; };
+		185330E3153BC36D008FC663 /* ScanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanView.xib; sourceTree = "<group>"; };
+		185330E6153BC37B008FC663 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		185330E7153BC37B008FC663 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		185330E8153BC37B008FC663 /* SettingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
+		185330EE153BC59D008FC663 /* beep-beep.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "beep-beep.aiff"; sourceTree = "<group>"; };
+		185330F6153BCC9B008FC663 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		185330F7153BCC9B008FC663 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		185330FA153BCCCF008FC663 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		185330FB153BCCCF008FC663 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		185330FC153BCCCF008FC663 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18533100153BCCF5008FC663 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		18533103153BCE87008FC663 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		18533104153BCE87008FC663 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		18533105153BCE87008FC663 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18533106153BCE87008FC663 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18533107153BCE87008FC663 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		18533108153BCE87008FC663 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		18533109153BCE87008FC663 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18533111153BCEA3008FC663 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		18533113153BCEF2008FC663 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		18533115153BCF0F008FC663 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18533117153BCFBE008FC663 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18533119153BCFDA008FC663 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1853311A153BCFDA008FC663 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		189C6D81153BE71300B35F71 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		189C6D8D153BECD600B35F71 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		189C6D8E153BECD600B35F71 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		189C6D8F153BECD600B35F71 /* preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preferences.png; sourceTree = "<group>"; };
+		189C6D90153BECD600B35F71 /* preferences@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preferences@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +126,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189C6D82153BE71300B35F71 /* CoreVideo.framework in Frameworks */,
+				1853311B153BCFDA008FC663 /* EventKit.framework in Frameworks */,
+				1853311C153BCFDA008FC663 /* EventKitUI.framework in Frameworks */,
+				18533118153BCFBE008FC663 /* CoreMedia.framework in Frameworks */,
+				1853310F153BCE87008FC663 /* MessageUI.framework in Frameworks */,
+				18533116153BCF0F008FC663 /* MobileCoreServices.framework in Frameworks */,
+				18533114153BCEF2008FC663 /* libiconv.dylib in Frameworks */,
+				18533112153BCEA3008FC663 /* libsqlite3.dylib in Frameworks */,
+				1853310A153BCE87008FC663 /* AddressBook.framework in Frameworks */,
+				1853310B153BCE87008FC663 /* AddressBookUI.framework in Frameworks */,
+				1853310C153BCE87008FC663 /* CFNetwork.framework in Frameworks */,
+				1853310D153BCE87008FC663 /* CoreLocation.framework in Frameworks */,
+				1853310E153BCE87008FC663 /* libz.1.2.5.dylib in Frameworks */,
+				18533110153BCE87008FC663 /* Security.framework in Frameworks */,
+				185330FF153BCCCF008FC663 /* SystemConfiguration.framework in Frameworks */,
+				18533102153BCE43008FC663 /* libiOSFramework.a in Frameworks */,
+				18533101153BCCF5008FC663 /* CoreAudio.framework in Frameworks */,
+				185330FD153BCCCF008FC663 /* MapKit.framework in Frameworks */,
+				185330FE153BCCCF008FC663 /* QuartzCore.framework in Frameworks */,
+				185330F8153BCC9B008FC663 /* AudioToolbox.framework in Frameworks */,
+				185330F9153BCC9B008FC663 /* AVFoundation.framework in Frameworks */,
 				185330A0153BC005008FC663 /* UIKit.framework in Frameworks */,
 				185330A2153BC005008FC663 /* Foundation.framework in Frameworks */,
 				185330A4153BC005008FC663 /* CoreGraphics.framework in Frameworks */,
@@ -69,9 +176,8 @@
 		1853309E153BC005008FC663 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1853309F153BC005008FC663 /* UIKit.framework */,
-				185330A1153BC005008FC663 /* Foundation.framework */,
-				185330A3153BC005008FC663 /* CoreGraphics.framework */,
+				185330D5153BC20F008FC663 /* iOS */,
+				185330CA153BC1E8008FC663 /* iOSFramework.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,6 +185,8 @@
 		185330A5153BC005008FC663 /* QRKit */ = {
 			isa = PBXGroup;
 			children = (
+				185330EB153BC4E5008FC663 /* Resources */,
+				185330DB153BC32B008FC663 /* ViewControllers */,
 				185330AE153BC005008FC663 /* QRKitAppDelegate.h */,
 				185330AF153BC005008FC663 /* QRKitAppDelegate.m */,
 				185330B1153BC005008FC663 /* QRKitViewController.h */,
@@ -95,10 +203,93 @@
 			children = (
 				185330A7153BC005008FC663 /* QRKit-Info.plist */,
 				185330A8153BC005008FC663 /* InfoPlist.strings */,
-				185330AB153BC005008FC663 /* main.m */,
+				185330AB153BC005008FC663 /* main.mm */,
 				185330AD153BC005008FC663 /* QRKit-Prefix.pch */,
+				185330C8153BC163008FC663 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185330CB153BC1E8008FC663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185330D2153BC1E9008FC663 /* libiOSFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185330D5153BC20F008FC663 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				189C6D81153BE71300B35F71 /* CoreVideo.framework */,
+				18533119153BCFDA008FC663 /* EventKit.framework */,
+				1853311A153BCFDA008FC663 /* EventKitUI.framework */,
+				18533117153BCFBE008FC663 /* CoreMedia.framework */,
+				18533115153BCF0F008FC663 /* MobileCoreServices.framework */,
+				18533113153BCEF2008FC663 /* libiconv.dylib */,
+				18533111153BCEA3008FC663 /* libsqlite3.dylib */,
+				18533103153BCE87008FC663 /* AddressBook.framework */,
+				18533104153BCE87008FC663 /* AddressBookUI.framework */,
+				18533105153BCE87008FC663 /* CFNetwork.framework */,
+				18533106153BCE87008FC663 /* CoreLocation.framework */,
+				18533107153BCE87008FC663 /* libz.1.2.5.dylib */,
+				18533108153BCE87008FC663 /* MessageUI.framework */,
+				18533109153BCE87008FC663 /* Security.framework */,
+				18533100153BCCF5008FC663 /* CoreAudio.framework */,
+				185330FA153BCCCF008FC663 /* MapKit.framework */,
+				185330FB153BCCCF008FC663 /* QuartzCore.framework */,
+				185330FC153BCCCF008FC663 /* SystemConfiguration.framework */,
+				185330F6153BCC9B008FC663 /* AudioToolbox.framework */,
+				185330F7153BCC9B008FC663 /* AVFoundation.framework */,
+				1853309F153BC005008FC663 /* UIKit.framework */,
+				185330A1153BC005008FC663 /* Foundation.framework */,
+				185330A3153BC005008FC663 /* CoreGraphics.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		185330DB153BC32B008FC663 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				185330DC153BC35A008FC663 /* HistoryView.h */,
+				185330DD153BC35A008FC663 /* HistoryView.m */,
+				185330DE153BC35A008FC663 /* HistoryView.xib */,
+				185330E1153BC36D008FC663 /* ScanView.h */,
+				185330E2153BC36D008FC663 /* ScanView.mm */,
+				185330E3153BC36D008FC663 /* ScanView.xib */,
+				185330E6153BC37B008FC663 /* SettingView.h */,
+				185330E7153BC37B008FC663 /* SettingView.m */,
+				185330E8153BC37B008FC663 /* SettingView.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		185330EB153BC4E5008FC663 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				185330EC153BC4E5008FC663 /* Images */,
+				185330ED153BC4E5008FC663 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		185330EC153BC4E5008FC663 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				189C6D8D153BECD600B35F71 /* camera.png */,
+				189C6D8E153BECD600B35F71 /* camera@2x.png */,
+				189C6D8F153BECD600B35F71 /* preferences.png */,
+				189C6D90153BECD600B35F71 /* preferences@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		185330ED153BC4E5008FC663 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				185330EE153BC59D008FC663 /* beep-beep.aiff */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				185330D4153BC1F9008FC663 /* PBXTargetDependency */,
 			);
 			name = QRKit;
 			productName = QRKit;
@@ -139,12 +331,28 @@
 			mainGroup = 18533090153BC004008FC663;
 			productRefGroup = 1853309C153BC004008FC663 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 185330CB153BC1E8008FC663 /* Products */;
+					ProjectRef = 185330CA153BC1E8008FC663 /* iOSFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1853309A153BC004008FC663 /* QRKit */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		185330D2153BC1E9008FC663 /* libiOSFramework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libiOSFramework.a;
+			remoteRef = 185330D1153BC1E9008FC663 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		18533099153BC004008FC663 /* Resources */ = {
@@ -154,6 +362,15 @@
 				185330AA153BC005008FC663 /* InfoPlist.strings in Resources */,
 				185330B6153BC005008FC663 /* QRKitViewController_iPhone.xib in Resources */,
 				185330B9153BC005008FC663 /* QRKitViewController_iPad.xib in Resources */,
+				185330C9153BC163008FC663 /* Localizable.strings in Resources */,
+				185330E0153BC35A008FC663 /* HistoryView.xib in Resources */,
+				185330E5153BC36D008FC663 /* ScanView.xib in Resources */,
+				185330EA153BC37B008FC663 /* SettingView.xib in Resources */,
+				185330EF153BC59D008FC663 /* beep-beep.aiff in Resources */,
+				189C6D91153BECD600B35F71 /* camera.png in Resources */,
+				189C6D92153BECD600B35F71 /* camera@2x.png in Resources */,
+				189C6D93153BECD600B35F71 /* preferences.png in Resources */,
+				189C6D94153BECD600B35F71 /* preferences@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,13 +381,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185330AC153BC005008FC663 /* main.m in Sources */,
+				185330AC153BC005008FC663 /* main.mm in Sources */,
 				185330B0153BC005008FC663 /* QRKitAppDelegate.m in Sources */,
 				185330B3153BC005008FC663 /* QRKitViewController.m in Sources */,
+				185330DF153BC35A008FC663 /* HistoryView.m in Sources */,
+				185330E4153BC36D008FC663 /* ScanView.mm in Sources */,
+				185330E9153BC37B008FC663 /* SettingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185330D4153BC1F9008FC663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSFramework;
+			targetProxy = 185330D3153BC1F9008FC663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		185330A8153BC005008FC663 /* InfoPlist.strings */ = {
@@ -248,9 +476,20 @@
 		185330BD153BC005008FC663 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QRKit/QRKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(ZXingFramework)",
+					"$(iOSFramework)/**",
+				);
 				INFOPLIST_FILE = "QRKit/QRKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -259,9 +498,20 @@
 		185330BE153BC005008FC663 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QRKit/QRKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(ZXingFramework)",
+					"$(iOSFramework)/**",
+				);
 				INFOPLIST_FILE = "QRKit/QRKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,6 +536,7 @@
 				185330BE153BC005008FC663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

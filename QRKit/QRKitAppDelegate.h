@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @class QRKitViewController;
+@class OOCLTabBarController;
 
-@interface QRKitAppDelegate : UIResponder <UIApplicationDelegate>
+@interface QRKitAppDelegate : UIResponder <UIApplicationDelegate,UITabBarControllerDelegate,UINavigationControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) QRKitViewController *viewController;
+
+@property (nonatomic,retain) OOCLTabBarController *tabBarController;
 
 @end
